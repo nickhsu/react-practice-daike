@@ -17,7 +17,7 @@ const Api = {
                 "avatar": "image_url"
             },
             {
-                "id": "holeTeam",
+                "id": "wholeTeam",
                 "name": "整個團隊",
                 "role": "psudo",
                 "avatar": "image_url"
