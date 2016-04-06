@@ -11,7 +11,7 @@ npm install
 ### Start server
 
 ```
-npm run server
+npm run dev
 ```
 
 Open `localhost:8080` in your browser, and you will see the demo.
