@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 import FilterItem from './FilterItem'
 
 const FilterGroup = ({ title, items, onItemSelect }) => (
-    <div htmlClass='filter-group'>
+    <div className='filter-group'>
         <h2>{title}</h2>
         <form>
             <ul>

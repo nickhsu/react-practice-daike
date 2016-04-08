@@ -1,7 +1,33 @@
 #filter {
-  width: 300px;
-}
+  padding: 0.5em;
+  width: 200px;
+  background-color: #f3f7f9;
+  height: 100%;
+  position: absolute;
+  overflow: scroll;
 
-h1 {
-  color: red;
+  h2 {
+    margin: 0;
+    padding: 0.3em 0 0 1em;
+    font-size: 1.2em;
+    color: #a6a6a6;
+  }
+
+  .filter-group {
+    margin-bottom: 2em;
+
+    ul {
+      list-style-type: none;
+      padding: 0 0 0 1.5em;
+
+
+      li {
+        margin: 1em 0 1em 0;
+
+        label {
+          margin-left: 0.5em;
+        }
+      }
+    }
+  }
 }

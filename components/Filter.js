@@ -1,8 +1,10 @@
 import React, { PropTypes } from 'react'
 import FilterGroup from './FilterGroup'
 
+import '../style/filter.scss'
+
 const Filter = ({ members, onMemberSelect, apps, onAppSelect }) => (
-    <div>
+    <div id="filter">
         <FilterGroup title='指派給' items={members} onItemSelect={onMemberSelect} />
         <FilterGroup title='App' items={apps} onItemSelect={onAppSelect} />
     </div>
